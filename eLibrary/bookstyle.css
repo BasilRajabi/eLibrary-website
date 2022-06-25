@@ -1,0 +1,154 @@
+.logoimg {
+    height: 100px;
+    width: 100px;
+    margin-left: 5%;
+}
+
+.imgb {
+    width: 330px;
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+h1 {
+    color: #6d9197;
+}
+
+.nav-link {
+    font-size: larger;
+    color: #99aead;
+}
+
+.name {
+    margin-left: 10%;
+    text-transform: capitalize;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.middleside {
+    padding-top: 2%;
+    margin-right: 10px;
+    width: 50%;
+    height: inherit;
+    justify-self: end;
+    align-self: center;
+}
+
+.leftside {
+    width: 25%;
+    height: inherit;
+    justify-self: start;
+}
+
+.rightside {
+    border-left: 1px black solid;
+    width: 25%;
+    height: inherit;
+    align-self: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.navbar {
+    background-color: #28363d;
+}
+
+body {
+    background-color: #6d9197;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: #28363d;
+    color: #99aead;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+hr {
+    border: 1px #6d9197 solid;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.container {
+    margin-left: 8%;
+}
+
+span:hover {
+    background-color: #6d9197;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.usertable {
+    height: 40%;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 15%; */
+    /* margin-top: 10%; */
+}
+
+.uhead {
+    padding-top: 5%;
+    margin-left: 10%;
+    color: #28363d;
+    width: 50%;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.all {
+    margin-left: 15%;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-content: space-between; */
+    height: 80%;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    color: #99aead;
+}
+
+.contform {
+    margin-top: 7%;
+    margin-left: 33%;
+    width: 30%;
+    background-color: #28363d;
+}
+
+.contform,
+h2 {
+    color: #6d9197;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.contform,
+label {
+    font-size: larger;
+    text-align: start;
+}
+
+h4 {
+    color: #28363d;
+}

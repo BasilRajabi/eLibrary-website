@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>PPU library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <script>
+        $(document).ready(function() {
+
+
+
+            $("#hide").click(function() {
+                $("#horror1").hide();
+                $("#horror2").hide();
+                $("#horror3").hide();
+                $("#horror4").hide();
+                $("#comedy1").hide();
+                $("#comedy2").hide();
+                $("#comedy3").hide();
+                $("#comedy4").hide();
+                $("#sci-fi1").hide();
+                $("#sci-fi2").hide();
+                $("#sci-fi3").hide();
+                $("#sci-fi4").hide();
+
+
+            });
+
+            $("#slide").click(function() {
+                $("#horror1").slideToggle(2000);
+                $("#horror2").slideToggle(2000);
+                $("#horror3").slideToggle(2000);
+                $("#horror4").slideToggle(2000);
+                $("#comedy1").slideToggle(2000);
+                $("#comedy2").slideToggle(2000);
+                $("#comedy3").slideToggle(2000);
+                $("#comedy4").slideToggle(2000);
+                $("#sci-fi1").slideToggle(2000);
+                $("#sci-fi2").slideToggle(2000);
+                $("#sci-fi3").slideToggle(2000);
+                $("#sci-fi4").slideToggle(2000);
+
+
+
+
+            });
+
+
+            $("#animation").click(function() {
+                $("#horror1").animate({
+                    left: '1130px'
+                }, 3000);
+                $("#sci-fi1").animate({
+                    right: '1130px'
+                }, 3000);
+
+                $("#comedy2").animate({
+                    left: '1130px'
+                }, 3000);
+                $("#horror3").animate({
+                    right: '1130px'
+                }, 3000);
+
+                $("#comedy3").animate({
+                    left: '1130px'
+                }, 3000);
+                $("#sci-fi3").animate({
+                    right: '1130px'
+                }, 3000);
+
+                $("#comedy4").animate({
+                    left: '1130px'
+                }, 3000);
+                $("#horror4").animate({
+                    right: '1130px'
+                }, 3000);
+
+            });
+            $("#reset").click(function() {
+                location.reload();
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar  container-fluid">
+        <img src="PPU logo.png" alt="ppu logo" class="logoimg ">
+        <h1>PPU Library</h1>
+
+        <!-- Links -->
+        <ul class="nav justify-content-end">
+            <span>
+                <li class="nav-item">
+                <a class="nav-link" href="./Home.html" target="_blank">Home </a>
+            </li>
+            </span>
+            <span>
+                <li class="nav-item">
+                <a class="nav-link" href="./Userinfo.html" target="_blank">Users info </a>
+            </li>
+            </span>
+            <span>
+                <li class="nav-item">
+                <a class="nav-link" href="./Form.html" target="_blank">Rate a book </a>
+            </li>
+            </span>
+
+            <span>
+                <li class="nav-item">
+                <a class="nav-link" href="./page2.html" target="_blank">Read a book</a>
+            </li>
+            </span>
+
+        </ul>
+
+    </nav>
+    <div class="dd d-flex justify-content-center">
+        <button type="button" class="btn btn-warning" id="slide">Slide show </button>
+        <button type="button" class="btn btn-warning" id="hide">Hide display </button>
+        <button type="button" class="btn btn-warning" id="animation">Animation display </button>
+        <button type="button" class="btn btn-warning" id="reset">Reset </button>
+
+    </div>
+
+    <div class="grid-container justify-content-lg-around">
+
+        <div class="card " id="horror1">
+            <a href="./book1.html" target="_blank">
+
+                <img class="card-img-top" src="1.jpg" alt="Card image">
+
+            </a>
+
+            <div class="card-body">
+                <h4 class="card-title">The girl in red</h4>
+                <p class="card-text">ISBN: 0451492285</p>
+
+            </div>
+        </div>
+        <div class="card " id="comedy1">
+            <a href="./book2.html" target="_blank">
+                <img class="card-img-top" src="2.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">The ghost tree</h4>
+                <p class="card-text">ISBN: 0451492307</p>
+
+            </div>
+        </div>
+        <div class="card " id="sci-fi1">
+            <a href="./book3.html" target="_blank">
+                <img class="card-img-top" src="3.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">The Water Cure</h4>
+                <p class="card-text">ISBN : 0525562834</p>
+
+            </div>
+        </div>
+        <div class="card " id="comedy2">
+            <a href="./book4.html" target="_blank">
+                <img class="card-img-top" src="4.png" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">The glass hotel</h4>
+                <p class="card-text">ASIN : B07RL58ZDG</p>
+
+            </div>
+        </div>
+        <div class="card " id="horror2">
+            <a href="./book5.html" target="_blank">
+                <img class="card-img-top" src="5.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">the other people</h4>
+                <p class="card-text"> ASIN : B07R6J4N96</p>
+
+            </div>
+        </div>
+        <div class="card" id="horror3">
+            <a href="./book6.html" target="_blank">
+                <img class="card-img-top" src="6.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">The arsonist</h4>
+                <p class="card-text">ISBN: 1644210002</p>
+
+            </div>
+        </div>
+        <div class="card" id="comedy3">
+            <a href="./book7.html" target="_blank">
+                <img class="card-img-top" src="7.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">Last Shot: A Han and Lando Novel</h4>
+                <p class="card-text">ISBN: 0525622144</p>
+
+            </div>
+        </div>
+        <div class="card " id="sci-fi2">
+            <a href="./book8.html" target="_blank">
+                <img class="card-img-top" src="8.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">Sugar run</h4>
+                <p class="card-text">ASIN : B079VTHG8J</p>
+
+            </div>
+        </div>
+        <div class="card" id="sci-fi3">
+            <a href="./book9.html" target="_blank">
+                <img class="card-img-top" src="9.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">No place like here</h4>
+                <p class="card-text">ASIN : 0310766923</p>
+
+            </div>
+        </div>
+        <div class="card" id="comedy4">
+            <a href="./book10.html" target="_blank">
+                <img class="card-img-top" src="10.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">Bossypants</h4>
+                <p class="card-text">ISBN: 9780316056878</p>
+
+            </div>
+        </div>
+        <div class="card" id="sci-fi4">
+            <a href="./book11.html" target="_blank">
+                <img class="card-img-top" src="11.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">The book of chaos</h4>
+                <p class="card-text">ASIN : B07JBD88M3 </p>
+
+            </div>
+        </div>
+        <div class="card horror" id="horror4">
+            <a href="./book12.html" target="_blank">
+                <img class="card-img-top" src="12.jpg" alt="Card image">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">Very nice</h4>
+                <p class="card-text">serial: 7374234</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid footer">
+        <footer class="container">
+            <h3>Contact us:</h3>
+            <div>
+                <p><a href="https://mail.google.com/" target="_blank">181086@ppu.edu.ps</a> <br> Mobile: 0568112982 | 0595112982</p>
+
+            </div>
+
+
+
+
+            <hr>
+            <p>Copyright © 2021 All Rights </p>
+        </footer>
+    </div>
+</body>
+
+</html>
